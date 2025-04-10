@@ -1,0 +1,29 @@
+body {
+    background-color: #2c3424;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div {
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px;
+    max-width: 600px;
+}
+
+img {
+    max-width: 600px;
+    max-height: 800px;
+    border-radius: 25px 25px 0 0;
+}
+
+.card {
+    background-color: #959581;
+    color: #2c3424;
+}
+
+.container{
+    background-color: #4c583e;
+    color: #daded8;
+    border-radius: 0 0 25px 25px;
+}
