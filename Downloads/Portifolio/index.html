@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-        body {
-            color: #36251b;
-            background-color: #d4c296;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        h1 {
-            background-color: #c07047;
-            color: #d4c296;
-        }
-        h2 {
-            background-color: #b0a763;
-        }
-        h3 {
-            background-color: #b0a763;
-        }
-        img {
-            height: 13rem;
-            width: 10rem;
-            border-radius: 3rem;
-        }
-    </style>
 </head>
+
 <body>
-    <img src="src\img\20240425_100756.jpg" alt="Antonio Roberto">
-    <h1>Antonio Roberto</h1>
-    <p>Estudante de Engenharia da computação com foco em desenvolvimento front-end e UI/UX.</p>
 
-    <h2>Formação:</h2>
-    <ol>
-        <li>Engenharia da Computação - cursando</li>
-        <li>Google UX Design - cursando</li>
-        <li>The Complete Full-Stack Web Development Bootcamp - concluido</li>
-    </ol>
+    <div>
+        <div class="centralize">
+            <div class="card">
+                <img src="src\img\20240425_100756.jpg" alt="Antonio Roberto" id="cardImg">
+                <h1 id="cardH1">Antonio Roberto</h1>
+            </div>
+        </div>
+        <div>
+            <h2>Sobre mim:</h2>
+            <p>Estudante de Engenharia da computação com foco em desenvolvimento front-end e UI/UX.</p>
+        </div>
+        <div>
+            <h2>Formação:</h2>
+            <div class="lista">
+                <ol>
+                    <li>Engenharia da Computação - cursando</li>
+                    <li>Google UX Design - cursando</li>
+                    <li>The Complete Full-Stack Web Development Bootcamp - concluido</li>
+                </ol>
+            </div>
+        </div>
+        <div>
+            <h3>Projetos:</h3>
+        </div>
+    </div>
 
-    <h3>Projetos:</h3>
-
-    <footer></footer>
+    <footer> 2025 Antonio Roberto. Todos os direitos reservados</footer>
 </body>
+
 </html>

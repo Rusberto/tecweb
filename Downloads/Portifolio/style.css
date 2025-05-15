@@ -1,0 +1,55 @@
+body {
+    color: #36251b;
+    background-color: #d4c296;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    background-color: #c07047;
+    color: #d4c296;
+}
+h2 {
+    background-color: #b0a763;
+}
+h3 {
+    background-color: #b0a763;
+}
+img {
+    height: 13rem;
+    width: 10rem;
+    border-radius: 3rem;
+}
+
+footer {
+    font-size:xx-small;
+    text-align: center;
+}
+
+div {
+    justify-content: center;
+    text-align: center;
+}
+
+.lista {
+    text-align: left;
+}
+
+.card {
+    background-color: #b0a763;
+    height: 20rem;
+    width: 11rem;
+    border-radius: 2rem;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.centralize {
+    justify-items: center;
+}
+
+#cardImg {
+    border-radius: 3rem 3rem 0 0;
+}
+
+#cardH1 {
+    border-radius: 0 0 3rem 3rem;
+}
